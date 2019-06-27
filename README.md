@@ -1,5 +1,5 @@
 # import_pb
-How to import graphDefs in .pb file format to TensorBoard 
+How to import graphDefs in .pb or .pbtxt file format to TensorBoard 
 
 To view the example graph file provided in this repository:
 
