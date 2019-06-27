@@ -3,13 +3,13 @@ Import a protobuf graph (.pb or .pbtxt) into Tensorboard
 Example usage:
   python import_pb.py --graph=./freeze/frozen_graph.pb  --log_dir=./tb_logs
   python import_pb.py --graph=infer_graph.pbtxt  --log_dir=dummy
+  python import_pb.py --graph=infer_graph.pbtxt
 '''
 import os
 import sys
 import argparse
 from google.protobuf import text_format
 import tensorflow as tf
-#from tensorflow.python.tools import import_pb_to_tensorboard
 
 from tensorflow.core.framework import graph_pb2
 from tensorflow.python.client import session
